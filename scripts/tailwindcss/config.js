@@ -9,7 +9,8 @@ tailwind.config = {
         primary: "#1e40af",  // azul principal
         secondary: "#1e3a8a", // azul mais escuro hover
         dark_blue: "#151a29",  // azul mais escuro
-        black_nav_color: "#0e0e0e"
+        black_nav_color: "#0e0e0e",
+        gold_span: "#ffb800"
       }
     }
   }
