@@ -43,11 +43,15 @@
   <!-- TAILWIND -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./scripts/tailwindcss/config.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body class="font-inter antialiased scroll-smooth bg-white text-neutral-900 dark:bg-dark_blue dark:text-neutral-100">
   <!-- Wrapper geral -->
-  <div class="min-h-screen flex flex-col">
+  <div class="flex flex-col">
 
     <!-- HEADER -->
     <header
@@ -125,15 +129,18 @@
       <section id="sobre" class="bg-gray-50 dark:bg-dark_blue py-20">
         <div class="max-w-5xl mx-auto px-6">
           <h2 class="text-3xl font-bold text-center mb-10">
-            Sobre mim
+            Como eu trabalho
           </h2>
 
-          <p class="text-center text-neutral-700 dark:text-neutral-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-            Meu foco não é apenas desenvolver software, e sim entregar soluções que façam sentido para o negócio.
-            Antes de pensar na tecnologia, eu busco entender o objetivo, o contexto e o impacto desejado — e então
-            defino
-            a melhor forma de resolver o problema com clareza e responsabilidade técnica.
-          </p>
+          <div class="text-center mb-12">
+            <span class="inline-block px-4 py-1 text-sm font-medium bg-green-600 text-white rounded-full mb-3">
+              ✔ Disponível para novos projetos
+            </span>
+            <p class="text-center text-neutral-700 dark:text-neutral-300 max-w-3xl mx-auto mb-12 leading-relaxed">
+              O objetivo é simples: entender o que o negócio precisa e entregar a solução certa para isso.
+              A tecnologia não vem primeiro — ela é escolhida com propósito, após diagnóstico e definição de valor.
+            </p>
+          </div>
 
           <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
@@ -142,9 +149,8 @@
               class="p-6 border border-neutral-200 dark:border-neutral-700 rounded-xl shadow-sm hover:shadow-md transition bg-white/80 dark:bg-neutral-900/40">
               <h3 class="text-xl font-semibold mb-2 text-blue-600 dark:text-blue-400">1. Entendimento do problema</h3>
               <p class="text-neutral-600 dark:text-neutral-300 text-sm leading-relaxed">
-                Cada projeto começa com uma análise clara: o que precisa ser resolvido, por que é importante e qual o
-                resultado esperado.
-                Isso evita retrabalho e garante que todos caminhem na mesma direção.
+                Antes de qualquer linha de código, alinho objetivo, impacto e expectativa para evitar retrabalho e
+                entregar o que importa.
               </p>
             </div>
 
@@ -154,9 +160,7 @@
               <h3 class="text-xl font-semibold mb-2 text-blue-600 dark:text-blue-400">2. Solução adequada ao negócio
               </h3>
               <p class="text-neutral-600 dark:text-neutral-300 text-sm leading-relaxed">
-                A tecnologia é escolhida com propósito. Pode ser uma API em Java, um sistema web simples, um dashboard
-                ou até
-                uma automação interna. O importante é entregar algo eficiente e sustentável.
+                API, automação, painel interno ou sistema completo — o formato se adapta à necessidade, não o contrário.
               </p>
             </div>
 
@@ -170,6 +174,20 @@
               </p>
             </div>
 
+          </div>
+
+          <!-- CTA: WhatsApp + E-mail -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-16">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/5575991934597?text=Olá,%20quero%20conversar%20sobre%20uma%20solução." target="_blank"
+              class="w-full sm:w-auto inline-flex justify-center items-center gap-3 px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all shadow">
+              <i class="fa-brands fa-whatsapp text-xl"></i> Iniciar conversa
+            </a>
+            <!-- Email -->
+            <a href="mailto:viniciusdevassis@gmail.com"
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3 border border-neutral-700 dark:border-neutral-300 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-all font-medium">
+              <i class="fa-regular fa-envelope text-xl"></i> Enviar e-mail
+            </a>
           </div>
         </div>
       </section>
