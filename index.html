@@ -59,7 +59,7 @@
       <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
         <!-- LOGO / NOME -->
-        <a href="#" class="flex items-center gap-2 font-semibold text-lg text-blue-600 dark:text-neutral-100">
+        <a href="#" class="flex items-center gap-2 font-semibold text-lg text-neutral-100">
           <img src="https://res.cloudinary.com/diz5ekmpf/image/upload/v1766847361/Logo_Vinicius_Assis_fmioza.png"
             alt="Foto de Vinícius Assis" class="w-8 h-8 rounded-full object-cover">
           <span>Vinícius Assis</span>
@@ -67,29 +67,29 @@
 
         <!-- NAV DESKTOP -->
         <nav class="hidden md:flex items-center gap-6 font-medium">
-          <a href="#sobre" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Sobre</a>
-          <a href="#formacao" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Formação</a>
-          <a href="#projetos" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Projetos</a>
+          <a href="#sobre" class="text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Sobre</a>
+          <a href="#formacao" class="text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Formação</a>
+          <a href="#projetos" class="text-white hover:text-blue-600 dark:hover:text-blue-400 transition">Projetos</a>
           <a href="#contato" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Contato</a>
         </nav>
 
         <!-- BOTÃO HAMBÚRGUER (MOBILE) -->
         <button id="menu-btn" class="md:hidden flex flex-col gap-[6px]">
-          <span class="w-6 h-0.5 bg-neutral-800 dark:bg-neutral-200"></span>
-          <span class="w-6 h-0.5 bg-neutral-800 dark:bg-neutral-200"></span>
-          <span class="w-6 h-0.5 bg-neutral-800 dark:bg-neutral-200"></span>
+          <span class="w-6 h-0.5 bg-neutral-200"></span>
+          <span class="w-6 h-0.5 bg-neutral-200"></span>
+          <span class="w-6 h-0.5 bg-neutral-200"></span>
         </button>
 
       </div>
 
       <!-- MENU MOBILE -->
-      <div id="mobile-menu" class="absolute w-full left-0 top-full flex-col bg-white dark:bg-black_nav_color border-t border-neutral-200 dark:border-neutral-800 md:hidden px-4 py-4 gap-4
+      <div id="mobile-menu" class="absolute w-full left-0 top-full flex-col bg-black_nav_color border-t border-neutral-200 dark:border-neutral-800 md:hidden px-4 py-4 gap-4
          transform -translate-y-5 opacity-0 pointer-events-none
          transition-all duration-300 ease-out">
-        <a href="#sobre" class="py-2 hover:text-blue-600 dark:hover:text-blue-400 block">Sobre</a>
-        <a href="#formacao" class="py-2 hover:text-blue-600 dark:hover:text-blue-400 block">Formação</a>
-        <a href="#projetos" class="py-2 hover:text-blue-600 dark:hover:text-blue-400 block">Projetos</a>
-        <a href="#contato" class="py-2 hover:text-blue-600 dark:hover:text-blue-400 block">Contato</a>
+        <a href="#sobre" class="py-2 text-white hover:text-blue-600 dark:hover:text-blue-400 block">Sobre</a>
+        <a href="#formacao" class="py-2 text-white hover:text-blue-600 dark:hover:text-blue-400 block">Formação</a>
+        <a href="#projetos" class="py-2 text-white hover:text-blue-600 dark:hover:text-blue-400 block">Projetos</a>
+        <a href="#contato" class="py-2 text-white hover:text-blue-600 dark:hover:text-blue-400 block">Contato</a>
       </div>
     </header>
 
@@ -191,6 +191,43 @@
           </div>
         </div>
       </section>
+
+      <section id="formacao" class="py-20 bg-white dark:bg-dark_blue">
+        <div class="max-w-5xl mx-auto px-6">
+
+          <h2 class="text-3xl font-bold text-center mb-12">Formação</h2>
+
+          <div class="relative border-l border-neutral-300 dark:border-neutral-700 pl-6 space-y-10">
+
+            <!-- Técnico SENAI -->
+            <div class="relative">
+              <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400">
+                Técnico em Desenvolvimento de Sistemas — SENAI
+              </h3>
+              <span class="text-sm text-neutral-500 dark:text-neutral-400">Concluído</span>
+              <p class="text-neutral-700 dark:text-neutral-300 mt-2 leading-relaxed">
+                Formação inicial em tecnologia. Lógica, banco de dados, programação e desenvolvimento de sistemas.
+                Construção das primeiras aplicações e entendimento prático da área.
+              </p>
+            </div>
+
+            <!-- Bacharelado UNIFAN -->
+            <div class="relative">
+              <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400">
+                Bacharelado em Sistemas de Informação — UNIFAN
+              </h3>
+              <span class="text-sm text-neutral-500 dark:text-neutral-400">Em andamento</span>
+              <p class="text-neutral-700 dark:text-neutral-300 mt-2 leading-relaxed">
+                Aprofundamento em engenharia de software, arquitetura, APIs e backend corporativo.
+                Base teórica e prática para criar soluções voltadas ao negócio e escaláveis.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
     </main>
 
     <!-- FOOTER -->
