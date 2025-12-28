@@ -10,7 +10,7 @@ tailwind.config = {
         secondary: "#1e3a8a", // azul mais escuro hover
         dark_blue: "#151a29",  // azul mais escuro
         dark_blue_navfoot: "#050b14", // cor do fundo da navbar
-        gold_span: "#ffb800"
+        gold_span: "#d4af37"
       }
     }
   }
