@@ -23,3 +23,6 @@ mobileMenu.querySelectorAll("a").forEach(link => {
     mobileMenu.classList.add("opacity-0", "-translate-y-4", "pointer-events-none");
   });
 });
+
+// Atualiza o ano automaticamente
+document.getElementById("year").textContent = new Date().getFullYear();
