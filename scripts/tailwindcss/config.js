@@ -2,6 +2,7 @@ tailwind.config = {
   darkMode: 'media',
   theme: {
     fontFamily: {
+      inter: ["Inter", "sans-serif"],
       sans: ["Inter", "sans-serif"],
     },
     extend: {
